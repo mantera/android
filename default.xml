@@ -25,14 +25,7 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
-<<<<<<< HEAD
-  <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-  <project path="device/motorola/triumph" name="android_device_motorola_triumph" remote="ikaros" revision="ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-=======
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -40,8 +33,8 @@
   <project path="device/moto/common" name="CyanogenMod/android_device_moto_common" />
   <project path="device/moto/stingray" name="CyanogenMod/android_device_moto_stingray" />
   <project path="device/moto/wingray" name="CyanogenMod/android_device_moto_wingray" />
+  <project path="device/motorola/triumph" name="android_device_motorola_triumph" remote="ikaros" revision="ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
->>>>>>> cm-upstream/ics
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
   <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
