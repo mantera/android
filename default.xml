@@ -17,6 +17,9 @@
   <remote  name="tickerguy"
            fetch="git://github.com/" />
 
+  <remote  name="mantera"
+           fetch="https://github.com/mantera/" />
+
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -232,7 +235,7 @@
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="ikarosdev/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mantera" revision="gingerbread" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
@@ -334,7 +337,7 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="ikarosdev/android" />
+  <project path="android" remote="mantera" revision="gingerbread" />
 
 </manifest>
 
