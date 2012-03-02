@@ -11,12 +11,6 @@
   <default revision="gingerbread"
            remote="github" />
 
-  <remote  name="ikaros"
-           fetch="git://github.com/" />
-
-  <remote  name="tickerguy"
-           fetch="git://github.com/" />
-
   <remote  name="mantera"
            fetch="git://github.com/" />
 
@@ -77,7 +71,7 @@
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" />
   <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" />
-  <project path="external/iptables" name="tickerguy/android_external_iptables" />
+  <project path="external/iptables" name="mantera/android_external_iptables" />
   <project path="external/jdiff" name="CyanogenMod/android_external_jdiff" />
   <project path="external/jhead" name="CyanogenMod/android_external_jhead" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
@@ -141,9 +135,9 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" />
   <project path="hardware/libhardware" name="mantera/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="ikarosdev/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="mantera/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="mantera/android_hardware_msm7k" />
-  <project path="hardware/qcom/gps" name="ikarosdev/android_hardware_qcom_gps" />
+  <project path="hardware/qcom/gps" name="mantera/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
@@ -164,7 +158,7 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="tickerguy/android_packages_apps_Camera" />
+  <project path="packages/apps/Camera" name="mantera/android_packages_apps_Camera" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" />
   <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" />
@@ -183,7 +177,7 @@
   <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" />
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="ikarosdev/android_packages_apps_Launcher2" />
+  <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
@@ -220,15 +214,15 @@
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="tickerguy/android_system_core" />
+  <project path="system/core" name="mantera/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="ikarosdev/android_system_netd" />
+  <project path="system/netd" name="mantera/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="ikarosdev/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
