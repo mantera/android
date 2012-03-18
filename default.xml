@@ -5,14 +5,14 @@
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch="git://github.com/"
+           fetch="http://github.com/"
            review="review.cyanogenmod.com" />
 
   <default revision="gingerbread"
            remote="github" />
 
   <remote  name="mantera"
-           fetch="git://github.com/" />
+           fetch="http://github.com/" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
